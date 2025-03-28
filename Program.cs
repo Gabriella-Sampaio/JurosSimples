@@ -39,7 +39,7 @@ Console.Clear();
 
 Console.ForegroundColor = ConsoleColor.Black;
 Console.BackgroundColor = ConsoleColor.White;
-Console.WriteLine($"Capital_______:{capital}");
+Console.WriteLine($"Capital_______:{capital:C}");
 Console.WriteLine($"Taxa de juros_:{taxa}%");
 Console.WriteLine($"Tempo_________:{tempo} meses");
 Console.ResetColor();
@@ -49,5 +49,5 @@ Console.WriteLine();
 Console.ForegroundColor = ConsoleColor.DarkBlue;
 Console.BackgroundColor = ConsoleColor.White;
 Console.WriteLine($"Juros_____:{juros:C}");
-Console.WriteLine($" Montante_:{montante:C}");
+Console.WriteLine($"Montante_:{montante:C}");
 Console.ResetColor();
