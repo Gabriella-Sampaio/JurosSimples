@@ -31,9 +31,9 @@ Console.WriteLine(@"➕〰️〰️〰️〰️〰️〰️〰️〰️〰️〰
  |          Resultado Juros simples          | 
 ➕〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️➕ ");
 Console.ResetColor();
-Console.WriteLine();
 
-Console.WriteLine($@"Capital_______: {capital:C}
+Console.WriteLine($@"
+Capital_______: {capital:C}
 Taxa de juros_: {taxa}%
 Tempo_________: {tempo} meses
 
